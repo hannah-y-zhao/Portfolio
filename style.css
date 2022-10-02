@@ -1,0 +1,196 @@
+body {
+    margin: 0
+}
+
+
+/* -------- NAV PORTION -------- */
+
+.header {
+    /* background-color:rgb(80, 143, 90); */
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+    position: sticky;
+
+    padding: 2rem 5rem 2rem 5rem
+}
+nav {
+    /* background-color: blue; */
+
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.nav-link {
+    /* background-color:rgb(143, 186, 255); */
+
+    display: inline;
+    padding: 1rem 1.25rem 1rem 1.25rem;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1rem;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color:#3F26C9;
+}
+#icon {
+    /* background-color: antiquewhite;     */
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+
+}
+.a-current {
+    color:#3F26C9;
+    display:inline;
+    font-weight:bold;
+}
+
+
+/* -------- GENERAL PORTION -------- */
+
+.color-txt {
+    color:#3F26C9;
+    display:inline;
+}
+
+.font-cat {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.font-large {
+    font-size: 2rem;
+}
+
+
+/* -------- INTRO PORTION -------- */
+
+.intro {
+    /* background-color: aquamarine; */
+
+    margin: 5rem 10rem 0rem 10rem;
+    padding-bottom: 5rem;
+    border: #cac0ff;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+
+#name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 4rem;
+    color:#3F26C9;
+}
+
+#summary {
+    font-size: 1.25rem;
+    margin-right: 4rem;
+    line-height: 2rem;
+}
+
+
+
+/* -------- PROJECTS PORTION -------- */
+
+.main {
+    /* background-color: blueviolet; */
+    padding: 5rem 10rem 5rem 10rem;
+    
+}
+.posts {
+    background-color: brown;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items:center
+}
+.post {
+    background-color: rgb(231, 134, 205);
+    /* width: 33rem; */
+
+}
+
+
+
+/* -------- PLAY PORTION -------- */
+#play-summary {
+    font-size: 1.25rem;
+    line-height: 2rem;
+
+    margin: 5rem 10rem 0rem 10rem;
+    padding-bottom: 3rem;
+    border: #cac0ff;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+.play-posts {
+    background-color: brown;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items:center
+}
+
+
+
+/* -------- ABOUT PORTION -------- */
+.about-row {
+    background-color: #cac0ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 5rem 10rem 5rem 10rem;
+}
+.about-col1 {
+    background-color: #fec0ff;
+
+    flex-grow: 1;
+    padding: 3rem 3rem 5rem 3rem;
+}
+.about-col2 {
+    background-color: #c0f3ff;
+
+    flex-grow: 2;
+    padding: 5rem 3rem 5rem 3rem
+}
+#about-summary {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+
+
+/* -------- RESPONSIVE PORTION -------- */
+
+@media screen and (max-width: 600px){
+    .posts {
+        flex-direction: column;
+    }
+    .main {
+        padding: 3rem 2rem 3rem 2rem
+    }
+    .header {
+        padding: 3rem 2rem 3rem 2rem
+    }
+    .intro {
+        margin: 3rem 2rem 3rem 2rem
+    }
+    #play-summary {
+        margin: 3rem 2rem 3rem 2rem
+    }
+    .about-row {
+        flex-wrap: wrap;
+        padding: 3rem 2rem 3rem 2rem
+
+    }
+}
