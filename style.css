@@ -144,7 +144,7 @@ a:hover {
 
 /* -------- ABOUT PORTION -------- */
 .about-row {
-    background-color: #cac0ff;
+    /* background-color: #cac0ff; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -152,13 +152,13 @@ a:hover {
     padding: 5rem 10rem 5rem 10rem;
 }
 .about-col1 {
-    background-color: #fec0ff;
+    /* background-color: #fec0ff; */
 
     flex-grow: 1;
     padding: 3rem 3rem 5rem 3rem;
 }
 .about-col2 {
-    background-color: #c0f3ff;
+    /* background-color: #c0f3ff; */
 
     flex-grow: 2;
     padding: 5rem 3rem 5rem 3rem
@@ -166,6 +166,11 @@ a:hover {
 #about-summary {
     font-size: 1.25rem;
     line-height: 2rem;
+}
+.icons {
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    color:black;
 }
 
 
@@ -188,6 +193,9 @@ a:hover {
     #play-summary {
         margin: 3rem 2rem 3rem 2rem
     }
+    
+}
+@media screen and (max-width: 800px){
     .about-row {
         flex-wrap: wrap;
         padding: 3rem 2rem 3rem 2rem
