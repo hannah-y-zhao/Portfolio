@@ -67,6 +67,9 @@ a:hover {
 .font-large {
     font-size: 2rem;
 }
+img {
+    border-radius: 15px
+}
 
 
 /* -------- INTRO PORTION -------- */
@@ -147,21 +150,19 @@ a:hover {
     /* background-color: #cac0ff; */
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 
     padding: 5rem 10rem 5rem 10rem;
 }
 .about-col1 {
     /* background-color: #fec0ff; */
 
-    flex-grow: 1;
-    padding: 3rem 3rem 5rem 3rem;
+    padding: 1rem 5rem 5rem 3rem;
 }
 .about-col2 {
     /* background-color: #c0f3ff; */
 
-    flex-grow: 2;
-    padding: 5rem 3rem 5rem 3rem
+    padding: 1rem 5rem 0rem 5rem
 }
 #about-summary {
     font-size: 1.25rem;
@@ -171,6 +172,13 @@ a:hover {
     padding-top: 1.5rem;
     font-size: 1.5rem;
     color:black;
+}
+#polaroid {
+    /* border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #aaaaaa; */
+    width: 18rem;
+    border-radius: 15px;
+    /* vertical-align:middle; */
 }
 
 
@@ -200,5 +208,14 @@ a:hover {
         flex-wrap: wrap;
         padding: 3rem 2rem 3rem 2rem
 
+    }
+    .about-col1 {
+        padding: 3rem 2rem 3rem 2rem
+
+    }
+    #polaroid {
+
+        width: 10rem;
+        vertical-align:middle;
     }
 }
