@@ -133,9 +133,9 @@ img {
     background-color: #1a1a1a;
   }
   
-  .post:hover .overlay {
+  /* .post:hover .overlay {
     opacity: 0.5;
-  }
+  } */
 
 /* -------- PLAY PORTION -------- */
 #play-summary {

@@ -1,0 +1,39 @@
+/* -------- BRIEF PORTION -------- */
+.process-main {
+    margin: 5rem 10rem 0rem 10rem;
+}
+.proj-title {
+    /* background-color: blueviolet; */
+
+    font-family: 'Catamaran';
+    font-weight: bold;
+    font-size: 4rem;
+    padding-bottom: 5rem;
+    border: #c7c7c7;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+.row-summary {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-description {
+    background-color: rgb(198, 198, 140);
+}
+.col-tools {
+    background-color: rgb(233, 161, 55);
+}
+
+
+
+
+/* -------- PROCESS PORTION -------- */
+.row-main-images {
+    background-color: aqua;
+}
+.row-process {
+    background-color: aquamarine;
+}
