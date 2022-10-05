@@ -79,9 +79,9 @@ img {
 
     margin: 5rem 10rem 0rem 10rem;
     padding-bottom: 5rem;
-    border: #cac0ff;
+    border: #c7c7c7;
     border-style: solid;
-    border-width: 0px 0px 1px 0px;
+    border-width: 0px 0px 2px 0px;
 }
 
 #name {
@@ -106,7 +106,7 @@ img {
     
 }
 .posts {
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
@@ -115,12 +115,27 @@ img {
     align-items:center
 }
 .post {
-    background-color: rgb(231, 134, 205);
-    /* width: 33rem; */
+    /* background-color: rgb(231, 134, 205); */
+    width: 33rem;
 
 }
 
-
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1a1a1a;
+  }
+  
+  .post:hover .overlay {
+    opacity: 0.5;
+  }
 
 /* -------- PLAY PORTION -------- */
 #play-summary {
