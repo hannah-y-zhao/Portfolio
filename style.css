@@ -6,13 +6,14 @@ body {
 /* -------- NAV PORTION -------- */
 
 .header {
-    /* background-color:rgb(80, 143, 90); */
+    background-color:white;
 
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-
+    top: 0;
     position: sticky;
+    z-index: 1;
 
     padding: 2rem 5rem 2rem 5rem
 }
@@ -68,7 +69,8 @@ a:hover {
     font-size: 2rem;
 }
 img {
-    border-radius: 15px
+    border-radius: 15px;
+    vertical-align:top;
 }
 
 
@@ -117,7 +119,7 @@ img {
 .post {
     /* background-color: rgb(231, 134, 205); */
     width: 33rem;
-
+    position:relative;
 }
 
 .overlay {
@@ -131,11 +133,29 @@ img {
     opacity: 0;
     transition: .5s ease;
     background-color: #1a1a1a;
+    border-radius: 15px
   }
   
-  /* .post:hover .overlay {
+  .post:hover .overlay {
     opacity: 0.5;
-  } */
+  }
+  .overlay-txt {
+    color: white;
+    opacity: 0%;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.post:hover .overlay-txt {
+    opacity: 1;
+}
+
+
 
 /* -------- PLAY PORTION -------- */
 #play-summary {
