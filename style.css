@@ -114,12 +114,13 @@ img {
     flex-wrap: wrap;
 
     justify-content: space-between;
-    align-items:center
+
 }
 .post {
-    /* background-color: rgb(231, 134, 205); */
+    background-color: rgb(231, 134, 205);
     width: 33rem;
     position:relative;
+    margin-bottom: 2rem;
 }
 
 .overlay {
@@ -133,16 +134,21 @@ img {
     opacity: 0;
     transition: .5s ease;
     background-color: #1a1a1a;
-    border-radius: 15px
+    border-radius: 15px;
+    margin-bottom: 2rem;
+
   }
   
   .post:hover .overlay {
     opacity: 0.5;
+
+
   }
   .overlay-txt {
     color: white;
     opacity: 0%;
-    font-size: 20px;
+    font-size: 2rem;
+    font-family: 'Catamaran', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;

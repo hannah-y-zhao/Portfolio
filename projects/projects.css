@@ -5,7 +5,8 @@
 .proj-title {
     /* background-color: blueviolet; */
 
-    font-family: 'Catamaran';
+    /* font-family: 'Catamaran'; */
+    font-family: 'DM Serif Display', serif;
     font-weight: bold;
     font-size: 4rem;
     padding-bottom: 2rem;
