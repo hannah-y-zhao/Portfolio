@@ -117,12 +117,14 @@ img {
 
 }
 .post {
-    background-color: rgb(231, 134, 205);
-    width: 33rem;
+    /* background-color: rgb(231, 134, 205); */
     position:relative;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
+.main-pic {
+    width: 37rem;
 
+}
 .overlay {
     position: absolute;
     top: 0;
