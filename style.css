@@ -122,7 +122,7 @@ img {
     margin-bottom: 5rem;
 }
 .main-pic {
-    width: 37rem;
+    width: 36rem;
 
 }
 .overlay {
@@ -135,14 +135,14 @@ img {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #1a1a1a;
+    background-color: #000000;
     border-radius: 15px;
     margin-bottom: 2rem;
 
   }
   
   .post:hover .overlay {
-    opacity: 0.5;
+    opacity: 0.65;
 
 
   }
@@ -158,6 +158,9 @@ img {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+  .overlay-subtxt {
+    font-size:1.3rem;
   }
 .post:hover .overlay-txt {
     opacity: 1;
