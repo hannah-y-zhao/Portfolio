@@ -29,11 +29,13 @@
 }
 .col-description {
     /* background-color: rgb(198, 198, 140); */
-    width:50rem;
+    flex: 1;
+    padding-right:5rem;
 }
 /* .col-tools {
     background-color: rgb(233, 161, 55); 
-    padding-right: 3rem;
+    padding-left: 3rem;
+    flex: 1;
 } */
 
 
@@ -65,4 +67,15 @@
 .process-full {
     font-size: 1.2rem;
     margin-bottom:10rem;
+}
+.row-process-desc {
+    display: flex;
+    flex-flow: row wrap;
+}
+.subtitles {
+    flex: 1;
+
+}
+.process-write {
+    flex: 2;
 }
