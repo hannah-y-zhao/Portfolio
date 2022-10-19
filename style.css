@@ -122,7 +122,7 @@ img {
     margin-bottom: 5rem;
 }
 .main-pic {
-    width: 33rem;
+    width: 31rem;
 
 }
 .overlay {
@@ -175,9 +175,9 @@ img {
 
     margin: 5rem 10rem 0rem 10rem;
     padding-bottom: 3rem;
-    border: #cac0ff;
+    border: #c7c7c7;
     border-style: solid;
-    border-width: 0px 0px 1px 0px;
+    border-width: 0px 0px 2px 0px;
 }
 .play-posts {
     background-color: brown;
