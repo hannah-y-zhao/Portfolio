@@ -45,7 +45,7 @@
         <div class = "row-summary">
             <div class = "col-description">
                 <div class = "font-cat">
-                    A chatbot trained on the Brothers' Grimm corpus that collaborates with the user to create a story, questioning the concept of "creativity" and "unique."
+                    A chatbot trained on the Brothers' Grimm corpus that collaborates with the user to create a story, questioning the concept of “creativity" and “unique."
                 </div>
             </div>
             <div class = "col-tools">
@@ -73,7 +73,64 @@
                             <b>Background & Planning:</b>
                         </div>
                         <div class = "process-write">
+                            My original goal was to use a corpus of fictional stories with machine learning that the user could interact or “chat" with. 
+                            As I started researching more about machine learning, this project turned into an <b>exploration of “creativity."</b>
                         </div>
+                    </div>
+                    <div class = "row-process-desc">
+                        <div class = "subtitles">
+                            <b>Proof of Concept:</b>
+                        </div>
+                        <div class = "process-write">
+                            I made multiple prototypes,
+                            <a href = "https://editor.p5js.org/hz2788/sketches/sh8gmySQ-" target="_blank">
+                                <div class = "color-txt">
+                                    one with Rita.js
+                                </div>
+                            </a>
+                            and 
+                            <a href = "https://editor.p5js.org/hz2788/sketches/qrsNFuuXH" target="_blank">
+                                <div class = "color-txt">
+                                    one with just p5.js.
+                                </div>
+                            </a>
+                            Both were helpful in driving what I wanted the final interface to look like, but I decided that I had to use machine learning in order to actually function in the way I wanted.
+                            To conceptualize my underlying questions regarding creativity and machine learning, I used Firebase to store user inputs to be visualized at the end of each user experience.
+                        </div>
+                    </div>
+                    <div class = "row-process-desc">
+                        <div class = "subtitles">
+                            <b>Machine Learning:</b>
+                        </div>
+                        <div class = "process-write">
+                            I decided on using charRNN from ml5.js since it was beginner friendly and I was able to find a lot of easy-to-understand examples.
+                            A big thank you to Julie Lizardo for help in training the model!
+                            <br><br>
+                            Following ml5 documentation, I was able to use the model with my past ideas and created: 
+                            <b>a “chatbot" </b>
+                            that came up with 
+                            <b>new text based on user input</b>
+                            and 
+                            <b>stored that input.</b>
+                            With each new user, 
+                            <b>previous users' inputs would be recalled</b>
+                             and compared against.
+                             <br><br>
+                             Essentially, users would co-create a story with the chatbot and see how similar their story was to previous stories also made with the chatbot.
+                        </div>
+                    </div>
+                    <div class = "row-center-txt">
+                        <a href = "https://hannah-y-zhao.github.io/Grimm-Writing/" target="_blank">
+                            <div class = "color-txt">
+                                Try it yourself
+                            </div>
+                        </a>
+                        or
+                        <a href = "https://github.com/hannah-y-zhao/Grimm-Writing" target="_blank">
+                            <div class = "color-txt">
+                                see the code!
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

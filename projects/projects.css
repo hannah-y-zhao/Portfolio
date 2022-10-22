@@ -37,6 +37,11 @@
     padding-left: 3rem;
     flex: 1;
 } */
+.row-center-txt {
+    margin:5rem 0 0 0;
+    flex-flow: row wrap;
+    text-align:center;
+}
 
 
 
