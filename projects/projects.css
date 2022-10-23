@@ -47,8 +47,9 @@
 
 
 /* -------- PROCESS PORTION -------- */
-.row-main-images {
+.row-main-video {
     display: flex;
+    padding: 5rem 0 5rem 0;
     flex-direction: row;
     justify-content: center;
     border: #c7c7c7;
