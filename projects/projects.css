@@ -56,10 +56,19 @@
     border-style: solid;
     border-width: 0px 0px 2px 0px;
 }
+.row-video {
+    display: flex;
+    padding: 3rem 0 0rem 0;
+    flex-direction: row;
+    justify-content: center;
+}
 .main-images {
     /* background-color: aqua; */
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    display: flex;
+    padding: 3rem 0 2rem 0;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: space-between;
 
 }
 .row-process {
@@ -77,6 +86,10 @@
 .row-process-desc {
     display: flex;
     flex-flow: row wrap;
+    padding: 3rem 0 3rem 0;
+    border: #c7c7c7;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
 }
 .subtitles {
     flex: 1;
