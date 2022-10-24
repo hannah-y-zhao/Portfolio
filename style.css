@@ -39,6 +39,7 @@ a:visited {
 }
 a:hover {
     color:#3F26C9;
+    cursor: pointer;
 }
 #icon {
     /* background-color: antiquewhite;     */

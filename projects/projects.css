@@ -76,12 +76,9 @@
     padding-top: 5rem;
 
 }
-.txt-process {
-    font-size: 3rem;
-}
 .process-full {
     font-size: 1.2rem;
-    margin-bottom:10rem;
+    margin: 0 0 10rem 0;
 }
 .row-process-desc {
     display: flex;
@@ -97,4 +94,27 @@
 }
 .process-write {
     flex: 2;
+}
+
+
+
+/* -------- PROCESS STUDIES PORTION -------- */
+.process-studies {
+    display:flex;
+    justify-content: space-between;
+    flex-flow:row wrap;
+    font-size: 1.2rem;
+
+    padding: 2rem 0 2rem 0;
+}
+.row-process-txt-right {
+    text-align: left;
+    padding-left:5rem;
+    flex: 1;
+}
+.row-process-txt-left {
+    text-align: right;
+    padding-right:5rem;
+    flex: 1;
+
 }
