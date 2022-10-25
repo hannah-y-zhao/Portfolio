@@ -98,7 +98,12 @@
 .process-write {
     flex: 2;
 }
-
+.line {
+    margin: 2rem 0 0 0;
+    border: #c7c7c7;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+}
 
 
 /* -------- PROCESS STUDIES PORTION -------- */
@@ -130,4 +135,31 @@
     border: #c7c7c7;
     border-style: solid;
     border-width: 1px;
+}
+#cat-text{
+    padding: 0rem 1rem 1rem 1rem;
+    margin: 0rem 1rem 10rem 1rem;
+    text-align:center;
+    font-size:2rem;
+    font-family: 'Catamaran', sans-serif;
+}
+#cat-text #asleep{
+    display:none;
+}
+#cat-text:hover #awake{
+    display:none;
+}
+#cat-text:hover #asleep{
+    display:inline;
+}
+#cat-text:hover{
+
+    animation: rollover 2s ease-in-out infinite;
+    animation-delay: 100ms
+}
+@keyframes rollover{
+    0% {transform: rotate(0);}
+    50%{transform: rotate(0.5turn);}
+    100%{transform: rotate(1turn);}
+
 }
