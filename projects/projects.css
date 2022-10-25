@@ -71,10 +71,13 @@
     align-items: space-between;
 
 }
-.row-process {
-    /* background-color: aquamarine; */
-    padding-top: 5rem;
+.space-images {
+    display: flex;
+    padding: 3rem 0 2rem 0;
 
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-between;
 }
 .process-full {
     font-size: 1.2rem;
@@ -105,7 +108,7 @@
     flex-flow:row wrap;
     font-size: 1.2rem;
 
-    padding: 3rem 0 5rem 0;
+    padding: 7rem 0 3rem 0;
 }
 .row-process-txt-right {
     text-align: left;
