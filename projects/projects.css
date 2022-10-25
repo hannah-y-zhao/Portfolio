@@ -105,7 +105,7 @@
     flex-flow:row wrap;
     font-size: 1.2rem;
 
-    padding: 2rem 0 2rem 0;
+    padding: 3rem 0 5rem 0;
 }
 .row-process-txt-right {
     text-align: left;
@@ -117,4 +117,14 @@
     padding-right:5rem;
     flex: 1;
 
+}
+
+
+
+
+/* -------- MISC. PORTION -------- */
+#sontag-pic {
+    border: #c7c7c7;
+    border-style: solid;
+    border-width: 1px;
 }
